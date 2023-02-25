@@ -51,7 +51,7 @@ class _TaskSecondScreenState extends State<TaskSecondScreen> {
                         spreadRadius: 10,
                       )
                     ],
-                    gradient: const SweepGradient(
+                    gradient: SweepGradient(
                       colors: [
                         Colors.greenAccent,
                         Colors.cyanAccent,
