@@ -26,7 +26,6 @@ class _TaskSecondScreenState extends State<TaskSecondScreen> {
         centerTitle: true,
         elevation: 80,
         backgroundColor: Colors.blue,
-        titleSpacing: 0,
       ),
       body: SafeArea(
         child: Column(
