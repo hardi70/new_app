@@ -44,7 +44,7 @@ class _TaskSecondScreenState extends State<TaskSecondScreen> {
                     border: Border.all(
                       color: Colors.white,
                     ),
-                    boxShadow: const [
+                    boxShadow: [
                       BoxShadow(
                         color: Colors.brown,
                         blurRadius: 10,
