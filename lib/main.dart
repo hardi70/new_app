@@ -1,7 +1,7 @@
 ///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
 import 'package:flutter/material.dart';
 
-import 'expanded_screen.dart';
+import 'navigator_1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const ExpandedScreen(),
+      home: const navigator1(),
     );
   }
 }

@@ -311,7 +311,12 @@ class _TaskSecondScreenState extends State<TaskSecondScreen> {
                   //  color: Colors.purpleAccent,
                 ),
               ],
-            )
+            ),
+            InkWell(
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
           ],
         ),
       ),
